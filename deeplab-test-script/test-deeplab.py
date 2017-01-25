@@ -11,7 +11,7 @@ import caffe
 def main():
   net_path = "deploy.prototxt"
   model_path = "trained.caffemodel"
-  gpu_id = -1
+  gpu_id = 0
 
   net = Segmenter(net_path, model_path, gpu_id)
   img = np.zeros((505,505,3))
