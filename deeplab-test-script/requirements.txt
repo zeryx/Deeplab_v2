@@ -1,0 +1,7 @@
+numpy
+pillow
+matplotlib
+thrift
+cython
+scikit-image
+protobuf
