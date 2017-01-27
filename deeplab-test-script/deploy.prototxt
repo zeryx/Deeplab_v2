@@ -6,6 +6,12 @@
 # from 2 to 3 while retaining stride = 2
 # which makes it easier to exactly align responses at different layers.
 #
+
+#Modified and upgraded by James from algorithmia;
+# 'layers' keyword replaced by 'layer'.
+# all types replaced with their string equivalents.
+# convolution 'hole' parameters replaced with 'dialation'.
+# MemoryData layer type doesn't have 3 output options, since 'label' was never used I commented it out.
 name: "DeepLab-LargeFOV"
 
 layer {
